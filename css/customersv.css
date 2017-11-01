@@ -1,0 +1,182 @@
+body
+{
+	background: #f5f5f5;
+}
+section
+{
+	float: left;
+	width: 100%;
+	overflow: hidden;
+
+}
+.wrap
+{
+	width: 982px;
+	box-shadow: 0px 1.5px 3px rgba(0,0,0,0.5);
+	border-radius: 10px;
+	padding-bottom: 116px;
+	position: relative;
+	left: 50%;
+	margin-left: -491px;
+	margin-top: 55px;
+	float: left;
+	margin-bottom: 30px;
+	background: #FCFCFC url(../images/customers/sep1.png) no-repeat right 20px bottom 20px;
+}
+.subnav
+{
+	height: 71px;
+	border-top:solid 5px #fff;
+	border-radius: 10px 10px 0px 0px;
+	border-bottom: solid 5px #d9d9d9;
+	margin-bottom: 25px;
+	background: url(../images/customers/cussv.png) no-repeat left 20px center;
+	text-align: center;
+	overflow: visible;
+}
+.subnav a
+{
+	display: inline-block;
+	width: 64px;
+	height: 24px;
+	margin: 0px 10px;
+	margin-top: 47px;
+	font-weight: 700;
+}
+.subnav a:nth-child(1)
+{
+	margin-left: 180px;
+}
+.subnav a:nth-child(2)
+{
+	border-bottom: solid 5px  #80a823;
+}
+.subnav button
+{
+	float: right;
+	border: none;
+	width:126px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 47px;
+	margin-right: 10px;
+	margin-top: 15.5px;
+	outline: none;
+	background: url(../images/customers/wpa_a06.png) no-repeat center;
+	color: #325f7f;
+	font-weight: 700;
+}
+.menulist,.explain,.hotissues
+{
+	float: left;
+}
+.explain,.hotissues
+{
+	width: 750px;
+	padding-left: 29px;
+	background: #f8f8f8;
+}
+.menulist
+{
+	width: 161px;
+	margin-bottom: -9999px;
+	padding-bottom: 9999px;
+	background: #eee;
+	text-align: center;
+	border-radius: 5px;
+}
+.menulist li
+{
+height: 36px;
+line-height: 36px;
+box-shadow: 0px -4px 1px -3px rgba(0,0,0,0.3) inset,0px 1px 1px 1px rgba(255,255,255,1);
+}
+.menulist li:hover
+{
+	background: url(../images/customers/hover.png) repeat-x scroll 0 0;
+}
+.menulist li a
+{
+	font: bold 12px/36px simsun;
+	color: #666;
+}
+.menulist li i
+{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: url(../images/customers/sep3.png) no-repeat scroll 0 -4px;
+	float: right;
+	margin-top: 13px;
+	margin-right: 15px;
+}
+.explain
+{
+	padding-bottom: 110px;
+}
+ .explain h3,.hotissues h3
+{
+	margin:8px 0px;
+	padding-left: 10px;
+	font-size: 16px;
+	color: #690;
+	background: url(../images/customers/sep2.png) no-repeat;
+
+}
+.explain p
+{
+	height: 38px;
+	line-height: 38px;
+	font-weight: 700;
+	padding-left: 25px;
+	margin-bottom: 50px;
+	font-size: 12px;
+}
+.explain h4
+{
+	font-size: 12px;
+margin-bottom: 50px;
+}
+.explain li
+{
+	height: 38px;
+	line-height: 38px;
+	padding-left: 25px;
+	font-size: 12px;
+}
+.explain li:nth-child(1)
+{
+	padding-left: 0px;
+}
+.hotissues
+{
+	padding-bottom: 31px;
+	box-shadow: -97px -103px 3px -100px rgba(0,0,0,0.2);
+	border-top-right-radius: 211px 161px;
+}
+.hotissues li
+{
+height: 30px;
+line-height: 30px;
+padding-left: 25px;
+}
+.hotissues li:hover a
+{
+color: #390;
+text-decoration: underline;
+}
+.circle
+{
+	width: 940px;
+	margin-left: 20px;
+	float: left;
+	    border: 1px solid #efefef;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.left
+{
+	float: left;
+	background: #f8f8f8;
+	width: 779px;
+}

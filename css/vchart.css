@@ -1,0 +1,1152 @@
+.navleft li:nth-child(4) a
+    {
+        color: #cf9;
+    }
+/*主体 start*/
+main{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+/*主体导航 start*/
+.nav{
+    height: 96px;
+    position: relative;
+}
+.nav .vlogo{
+    display: block;
+    background: url(../images/vchart/icons.png) no-repeat;
+    height: 66px;
+    width: 181px;
+    margin-top: 13px;
+}
+.nav .nav-link{
+    position: absolute;
+    right: 0;
+    top: 48px;
+    height: 95px;
+}
+.nav .nav-link li{
+    float: left;
+    text-align: center;
+    font-family: 'Microsoft yahei';
+    padding: 0 10px;
+}
+.nav .nav-link li a{
+    color: #7a7a7a;
+}
+.nav .nav-link li:nth-last-child(1){
+    text-align: right;
+    width: 142px;
+    font-size: 16px;
+    margin-top: -2px;
+    padding-right: 0;
+}
+.nav .nav-link li:nth-last-child(1) a{
+    color: #7a7a7a;
+}
+.nav .nav-link li:hover a{
+    color: #34d7c3;
+    padding: 5px 0;
+    border-bottom: 1px #27d5bf solid;
+}
+/*主体导航 end*/
+/*主体 slider 开始*/
+.slider{
+    width: 1200px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.slider .img_warp{
+    display: block;
+    width: 1200px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+}
+.slider .img_warp li{
+    overflow: hidden;
+    float:left;
+}
+.slider .img_warp img{
+    width: 1200px;
+    height: 400px;
+    vertical-align:top;
+}
+.slider .img_desc{
+    display: block;
+    position: absolute;
+    width: 270px;
+    background: url("../images/vchart/slider_img_desc.png") repeat;
+    right: 0;
+    top: 90px;
+    z-index: 100;
+    padding: 10px 0;
+}
+.slider .img_desc  li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    width: 230px;
+    overflow: hidden;
+}
+.slider .img_desc  li{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'SimSun';
+}
+.slider .img_desc  li:hover{
+    color: #34d7c3;
+}
+.active{
+    color: #34d7c3 ;
+}
+/*主体 slider 结束*/
+/*主体 hostpragram (v榜有话说)start*/
+/*.hostpragram{
+    margin-top: 50px;
+    border-top: 2px solid #f5f5f5;
+    border-bottom: 6px solid #f5f5f5;
+    border-right: 2px solid #f5f5f5;
+}
+.hostpragram .host-list{
+    padding: 45px 12px 0;
+    width: 210px;
+    border: 2px solid #f5f5f5;
+    border-top: 0;
+    border-bottom: 0;
+}
+.hostpragram .host-list li{
+    line-height: 63px;
+    margin-bottom: 43px;
+    border: 1px solid #f3f5f7;
+    width: 208px;
+    text-align: center;
+    background: #f0f0f0;
+    font-size: 16px;
+    font-family: 'Microsoft Yahei';
+    height: 63px;
+}
+.hostpragram .host-list li a{
+    display: block;
+    position: relative;
+    height: 61px;
+    color: #333;
+}
+.hostpragram .host-list li:hover{
+    background-color: #34d7c3;
+}
+.hostpragram .host-list li:hover a{
+    color: #ffffff;
+}
+.hostpragram .host-info{
+    margin-left: 25px;
+}
+.hostpragram .host-info .title .pr-title{
+    font: bold 22px 'Microsoft Yahei';
+    color: #000;
+    text-align: center;
+    margin: 25px 0 20px;
+}
+.hostpragram .host-info .title .prcnt{
+    font: 14px/25px 'Simsum';
+    color: #666666;
+    width: 920px;
+    height: 53px;
+    overflow: hidden;
+    text-align: center;
+}
+.hostpragram .host-info .vedio{
+    margin-top: 33px;
+}
+.hostpragram .host-info .vedio .vedio-pic{
+    position: relative;
+    width: 600px;
+    height: 338px;
+    display: block;
+}
+.hostpragram .host-info .vedio .vedio-play{
+    position: absolute;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: url("../images/vchart/vedio-play.png") no-repeat;
+    left: 50%;
+    top: 50%;
+    margin-top: -40px;
+    margin-left: -40px;
+    z-index: 5;
+}
+.hostpragram .host-info .vedio .vedio-info
+{
+    width: 245px;
+    padding: 0 25px;
+}
+.hostpragram .host-info .vedio .vedio-info .pvtitle{
+    font: bold 18px/57px 'SimHei';
+    height: 57px;
+    text-align: center;
+    width: 281px;
+    border-bottom: 1px solid #e3e3e3;
+}
+.hostpragram .host-info .vedio .vedio-info .pvtitle a{
+    width: 281px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    font-family: 'Microsoft Yahei';
+    color: #333333;
+}
+.hostpragram .host-info .vedio .vedio-info .pvtitle:hover a{
+    color: #34d7c3;
+}
+.hostpragram .host-info .vedio .vedio-info .pvcnt{
+    color: #666;
+    font: 14px/28px 'Simsum';
+    width: 281px;
+    margin-top: 20px;
+    height: 250px;
+    overflow: hidden;
+}
+.hostpragram .host-info .more{
+    text-align: center;
+    display: block;
+    font: 14px/20px 'Simsum';
+    color: #666;
+    margin-top: 50px;
+}
+.hostpragram .host-info .more .moreicon{
+    background: url("../images/vchart/vedio-icon.png") no-repeat;
+    width: 12px;
+    height: 9px;
+    display: inline-block;
+    margin-left: 6px;
+}
+.hostpragram .host-info .more:hover{
+    color: #34d7c3;
+}
+.hostpragram .host-info .more:hover .moreicon{
+    background-position: 0 -12px;
+}*/
+.hostpragram{
+    width: 1200px;
+    /*margin-top:50px;*/
+    margin: 50px auto 0;
+    border-top:2px solid #f5f5f5;
+    border-bottom: 6px solid #f5f5f5;
+    border-right: 2px solid #f5f5f5;
+}
+.hostpragram .hostlist{
+    padding: 45px 12px 0;
+    width:210px;
+    border:2px solid #f5f5f5;
+    border-top:0;
+    border-bottom:0;
+}
+.hostli{
+    margin-bottom:43px;
+    border:1px solid #f3f5f7;
+    width:208px;
+    text-align:center;
+    background:#f0f0f0;
+    font-size:16px;
+    font-family:'Microsoft Yahei';
+    height:63px;
+}
+/*.hostli:hover{
+    background:#34d7c3;
+    border:1px solid #34d7c3;
+}*/
+.hostH{
+    line-height:63px;
+}
+.hostlast{
+    margin-bottom:0;
+}
+.hostlink{
+    display:block;
+    position:relative;
+    height:61px;
+}
+.linkline1{
+    position: absolute;
+    top: 6px;
+    left: 50%;
+    margin-left: -109px;
+    width: 218px;
+}
+.linkline2{
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+    margin-left: -99px;
+    width: 218px;
+}
+.lihover{
+    background:#34d7c3;
+    border:1px solid #34d7c3;
+}
+.lihover .hostlink{
+    color:#fff;
+}
+.pragraminfo{
+    margin-left:25px;
+}
+.pragraminfo .pr-title{
+    font:bold 22px 'Microsoft Yahei';
+    color:#000;
+    text-align: center;
+    margin: 25px 0 20px;
+}
+.prcnt{
+    font: 14px/25px 'Simsum';
+    color: #666666;
+    width: 920px;
+    height: 53px;
+    overflow: hidden;
+    text-align:center;
+}
+.pvbox .pvlink{
+    width:600px;
+    height:338px;
+    position:relative;
+    display:block;
+}
+.pvbox .pvlink .vimg{
+    width:600px;
+    height:338px;
+}
+.pragramvideo{
+    width:600px;
+    height:338px;
+    display:none;
+    float:left;
+    background:#000;
+}
+.pragram-video{
+    margin-top:33px;
+}
+.pragram-video .vbo{
+    position:absolute;
+    display:inline-block;
+    width:80px;
+    height:80px;
+    background: url(../images/vchart/vedio-play.png) no-repeat;
+    left:50%;
+    top:50%;
+    margin-top:-40px;
+    margin-left:-40px;
+    z-index:5;
+}
+.pvinfo-box{
+    width:281px;
+    padding:0 25px;
+}
+.pvtitle{
+    font: bold 18px/57px 'SimHei';
+    height: 57px;
+    text-align: center;
+    border-bottom: 1px solid #e3e3e3;
+    width:281px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.pvtitle a{
+    width: 281px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    font-family: 'Microsoft Yahei';
+}
+.pvcnt{
+    color: #666;
+    font: 14px/28px 'Simsum';
+    width: 281px;
+    margin-top: 20px;
+    height: 250px;
+    overflow: hidden;
+}
+.morepragram {
+    text-align:center;
+    display:block;
+    font:14px/20px 'Simsum';
+    color:#666;
+    margin-top: 50px;
+}
+.morepragram .moreicon{
+    background: url('../images/vchart/vedio-icon.png') no-repeat;
+    width:12px;
+    height:9px;
+    display:inline-block;
+    margin-left:6px;
+}
+.morepragram:hover .moreicon{
+    background-position:0 -12px;
+}
+.pragramcontent{
+    display:none;
+}
+.current{
+    display:block;
+}
+/*主体 hostpragram (v榜有话说)end*/
+/*主体 parttwo (咨询盘点专辑榜) start*/
+.parttwo{
+    margin-top: 40px;
+}
+/*咨训盘点 start*/
+.parttwo .new-part{
+    width: 351px;
+    margin-right: 48px;
+}
+.parttwo .new-part .news-title,.parttwo .album-part .album-title{
+    height: 36px;
+    font-size: 18px;
+    line-height: 36px;
+    border-bottom: 1px solid #e2e2e2;
+    width: 351px;
+    font-family: 'Microsoft yahei';
+}
+.parttwo .new-part .news-box{
+    margin-top: 24px;
+    height: 735px;
+    overflow: hidden;
+}
+.parttwo .new-part .news-box .newsli{
+    margin-bottom: 27px;
+    height: 120px;
+}
+.parttwo .new-part .news-box .newsli img{
+    width: 120px;
+    height: 120px;
+}
+.parttwo .new-part .news-box .news-box-info{
+    width: 193px;
+    height: 100px;
+    overflow: hidden;
+    padding: 10px;
+}
+.parttwo .new-part .news-box .news-box-info h3{
+    font-size: 14px;
+    line-height: 30px;
+    color: #333333;
+    margin-bottom: 4px;
+}
+.parttwo .new-part .news-box .news-box-info h3 a{
+    color: #333333;
+}
+.parttwo .new-part .news-box .news-box-info p{
+    font-size: 12px;
+    color: #999999;
+}
+.parttwo .new-part .news-box .newsli:hover .news-box-info{
+    box-shadow: 1px 1px 10px 2px #c9ccc9;
+}
+
+/*咨训盘点 end*/
+/*专辑榜 start*/
+.parttwo .album-part{
+    width: 800px;
+    position: relative;
+}
+.parttwo .album-part .album-title{
+    width: 800px;
+    position: relative;
+}
+.parttwo .album-part .album-title{
+    height: 36px;
+    font-size: 18px;
+    line-height: 36px;
+    border-bottom: 1px solid #e2e2e2;
+    font-family: 'Microsoft yahei';
+}
+a {
+    color: #333;
+}
+.parttwo .album-part .album-data{
+    font-size: 12px;
+    color: #999999;
+    margin-left: 6px;
+}
+.parttwo .album-part .area-selector {
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+.parttwo .album-part .area-selector .zarea {
+    font-size: 12px;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    line-height: 31px;
+}
+.area-selector .zcur {
+    border-bottom: 1px solid #34d7c3;
+    color: #34d7c3;
+}
+.parttwo .album-part .buyer-zone{
+    width: 827px;
+    margin-top: 24px;
+}
+.parttwo .album-part .buyerli{
+    width: 250px;
+    margin-right: 25px;
+    background-color: #f6f6f6;
+    margin-top: 24px;
+    float: left;
+}
+.parttwo .album-part .buyerli .buyerli-img{
+    width: 250px;
+    height: 250px;
+    border-bottom: 1px solid #d0d0d0;
+    position: relative;
+}
+.parttwo .album-part .buyerli .buyerli-img img{
+    width: 250px;
+    height: 250px;
+}
+.parttwo .album-part .buyerli .buyerli-img .top{
+    width: 52px;
+    height: 34px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+}
+.parttwo .album-part .buyerli .buyerli-img .top1{
+     background: url("../images/vchart/top1.png");
+}
+.parttwo .album-part .buyerli .buyerli-img .top2{
+    background: url("../images/vchart/top2.png");
+}
+.parttwo .album-part .buyerli .buyerli-img .top3{
+    background: url("../images/vchart/top3.png");
+}
+.parttwo .album-part .buyerli .buyerli-info{
+    margin: 22px 0 12px 22px;
+    border-bottom: 1px solid #d0d0d0;
+    font-size: 14px;
+    color: #666666;
+    padding-bottom: 20px;
+}
+
+.parttwo .album-part .buyerli .buyerli-info dt{
+    float: left;
+    line-height: 31px;
+}
+.parttwo .album-part .buyerli .buyerli-info dd{
+    line-height: 31px;
+}
+.parttwo .album-part  .buyerli-info .zname{
+    color: #49d9c7;
+    font-size: 16px;
+    font-weight: bold;
+    width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.parttwo .album-part .buyerli-info .rname{
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+}
+/*竞争排名 rank 开始*/
+.parttwo .album-part .buyerli-rank{
+    margin-left: 22px;
+    color: #666666;
+    background-color: #f6f6f6;
+}
+.parttwo .album-part .buyerli-rank li{
+    background-color: #f6f6f6 !important;
+    border-bottom: 1px solid #fff;
+}
+.parttwo .album-part .buyerli-rank h3{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.parttwo .album-part .buyerli-rank .rank-no{
+    color: #ff6e9f;
+    height: 79px;
+    line-height: 79px;
+    font: 16px "impact";
+    line-height: 79px;
+}
+.parttwo .album-part .buyerli-rank img{
+    float: left;
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    margin: 12px 14px 9px 14px;
+}
+.parttwo .album-part .buyerli-rank .buyerli-rank-info{
+    margin-top: 15px;
+    color: #999999;
+    font-size: 14px;
+    line-height: 26px;
+}
+.parttwo .album-part .buyerli-rank .buyerli-rank-info .name{
+    width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.parttwo .album-part .buyerli-rank .buyerli-rank-info .value{
+    color: #999999;
+}
+.parttwo .album-part .buyerli-rank .buyerli-rank-info .num{
+    color: #34d7c3;
+    font: 14px "Impact";
+}
+/*竞争排名 rank 结束*/
+.week-champion{
+    background: #ebf0f3;
+    height: 448px;
+}
+.define{
+    height: 61px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.define .main-title{
+    padding-top: 28px;
+    font: 18px "Microsoft yahei";
+    color: #666666;
+    margin-right: 17px;
+    line-height: 61px;
+}
+/*.define .sub-title{
+    padding-top: 34px;
+    font: 22px "Microsoft yahei";
+    color: #999999;
+}*/
+.define .sub-title{
+    font: 16px "Microsoft yahei";
+    padding: 0 2px 6px;
+    display: inline-block;
+}
+.define .ico-line{
+    width: 2px;
+    height: 10px;
+    margin: 0 8px;
+    display: inline-block;
+    overflow: hidden;
+    background: url(../images/vchart/icon.png) no-repeat -70px 0;
+}
+.define .right-title {
+    padding-top: 34px;
+    font: 12px "Microsoft yahei";
+    color: #666666;
+    margin-right: 15px;
+}
+.define .right-title a{
+    font: 12px "Microsoft yahei";
+    padding: 0 2px 11px;
+    display: inline-block;
+}
+.define .right-title a:hover{
+    border-bottom: 1px solid #34d7c3;
+    color: #34d7c3;
+}
+.week-champion .champ-con{
+    margin: 16px 4px 0 0;
+}
+.week-champion .champ-con .champ-img img{
+    width: 640px;
+    height: 352px;
+    display: block;
+}
+.week-champion .champ-con .champ-data{
+    height: 352px
+}
+.week-champion .champ-con .champ-data .week-data{
+    background: #ffffff;
+    margin-bottom: 2px;
+    padding: 33px 0 29px 0;
+    width: 528px;
+    height: 289px;
+    position: relative;
+}
+.week-champion .champ-con .champ-data .week-data .week-info{
+    padding-left: 41px;
+    margin-bottom: 45px;
+}
+.week-champion .champ-con .champ-data .week-data .week-info .data-title {
+    font: normal 18px 'Microsoft yahei';
+    margin-bottom: 8px;
+    color: #666666;
+    position: relative;
+}
+.week-champion .champ-con .champ-data .week-data .week-info .data-name{
+    font: normal 14px 'Microsoft yahei';
+    color: #34d7c3;
+}
+.week-champion .champ-con .champ-data .week-data .week-info .champ-icon{
+    position: absolute;
+    width: 140px;
+    height: 43px;
+    background: url(../images/vchart/icon-champ.png) no-repeat;
+    right: -4px;
+    top: 31px;
+    display: block;
+}
+.week-champion .champ-con .champ-data .week-data .tongji{
+    padding-left: 6px;
+    margin-top: 65px;
+}
+.week-champion .champ-con .champ-data .week-data .tongji li{
+    width: 124px;
+    text-align: center;
+    float: left;
+    border-right: 1px solid #cccccc;
+    margin-bottom: 50px;
+    height: 53px;
+}
+.week-champion .champ-con .champ-data .week-data .tongji li .tongji-title{
+    color: #999999;
+    font: normal 13px 'Microsoft yahei';
+    margin-bottom: 9px;
+}
+.week-champion .champ-con .champ-data .week-data .tongji li .tongji-num{
+    color: #666666;
+    font: normal 18px 'Microsoft yahei';
+}
+.newsong{
+    background-color: #fff;
+}
+.newsong-main{
+    margin: 0 auto;
+    width: 1200px;
+}
+.newsong .newsong-title .right-title{
+    font: normal 12px/36px 'Microsoft yahei';
+    margin-right: 15px;
+    text-align: center;
+}
+.newsong .newsong-main .rank-content{
+    width: 1200px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e2e2e2;
+    margin-top: 5px;
+}
+.newsong .newsong-main .rank-content ul{
+    width: 1225px;
+}
+.newsong .newsong-main .rank-content ul li{
+    width: 220px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    display: inline;
+}
+.newsong .newsong-main .rank-content ul li .ranklink{
+    width: 220px;
+    height: 124px;
+    position: relative;
+    display: inline-block;
+}
+.newsong .newsong-main .rank-content ul li .ranklink img{
+    width: 220px;
+    height: 124px;
+}
+.newsong .newsong-main .rank-content ul li .ranklink .ms-mask{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.45);
+    width: 220px;
+    height: 42px;
+    left: 0;
+    bottom: 0;
+    display: block;
+}
+
+.newsong .newsong-main .rank-content ul li .ranklink .rank-mc{
+    position: absolute;
+    font: normal 24px/42px 'Impact';
+    height: 42px;
+    left: 7px;
+    bottom: -1px;
+    color: #fff;
+}
+.newsong .newsong-main .rank-content ul li .ranklink .rank-score{
+    position: absolute;
+    font: normal 18px/42px 'Microsoft yahei';
+    height: 42px;
+    right: 7px;
+    bottom: 0;
+    color: #fff;
+}
+.newsong .newsong-main .rank-content ul li .rank-detail{
+    padding-left: 6px;
+}
+
+.newsong .newsong-main .rank-content ul li .rank-detail .rank-info{
+    font: 12px 'Microsoft yahei';
+    color: #666666;
+    margin: 13px 5px 0 0;
+    float: left;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.newsong .newsong-main .rank-content ul li .rank-detail .rank-info:hover a{
+    color: #34d7c3;
+}
+.newsong .newsong-main .rank-content ul li .rank-star:hover a{
+    color: #34d7c3;
+}
+.newsong .newsong-main .rank-content ul li .rank-star{
+    padding-left: 6px;
+    font: 12px/30px 'Microsoft yahei';
+    height: 30px;
+    color: #26d0bb;
+}
+/*周榜最高纪录 start*/
+.rank-channel{
+    background-color: #fff;
+}
+.rank-main{
+    margin: 0 auto;
+    width: 1200px;
+}
+.rank-main .rank-title{
+    margin: 56px 0 10px 0;
+    border-bottom: 1px solid #e2e2e2;
+}
+.rank-main .rank-title .rank-name{
+    height: 36px;
+    font: normal 18px/36px 'Microsoft yahei';
+    color: #666666;
+    float: left;
+}
+.rank-main .rank-title .years_menu{
+    margin: 13px 0 0 0;
+}
+.rank-main .rank-title .jns-word{
+    display: inline-block;
+    margin: 10px 0 0 5px;
+    color: #999999;
+}
+.rank-main .rank-title .week-area{
+    padding-top: 10px;
+    margin-right: 15px;
+}
+.rank-main .rank-title .week-area .j_area{
+    padding: 0 2px 6px;
+}
+.ico_line {
+    width: 2px;
+    height: 10px;
+    margin: 0 8px;
+    display: inline-block;
+    overflow: hidden;
+    background: url(../images/vchart/icon.png) no-repeat -70px 0;
+}
+.rank-main .rank-title .years_menu li{
+    width: 50px;
+    height: 20px;
+    display: block;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: 'SimSun';
+    color: #999999;
+
+}
+.rank-main .rank-title .years_menu li:before{
+    content: "<";
+}
+.rank-main .rank-title .years_menu li:after{
+    content: ">";
+}
+
+.rank-main .rank-content ul{
+    width: 1219px;
+    margin-top: 10px;
+}
+.rank-main .rank-content ul .rankli{
+    width: 285px;
+    float: left;
+    margin-right: 19px;
+    margin-bottom: 30px;
+    display: inline;
+}
+.rank-main .rank-content ul .rankli .ranklink{
+    width: 285px;
+    height: 160px;
+    position: relative;
+    display: inline-block;
+}
+.rank-main .rank-content ul .rankli .ranklink img{
+    width: 285px;
+    height: 160px;
+}
+.rank-main .rank-content ul .rankli .ranklink .content-mask{
+    position: absolute;
+    background: url(../images/vchart/rank-mask.png) no-repeat;
+    width: 100%;
+    height: 51px;
+    left: 0;
+    bottom: 0;
+    display: block;
+}
+.rank-main .rank-content ul .rankli .ranklink .pic-mask{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    display: none;
+}
+.rank-main .rank-content ul .rankli .ranklink .r-title{
+    position: absolute;
+    color: #fff;
+    font-size: 12px;
+    left: 12px;
+    bottom: 24px;
+}
+.rank-main .rank-content ul .rankli .ranklink .r-name{
+    position: absolute;
+    color: #26d0bb;
+    font-size: 12px;
+    left: 12px;
+    bottom: 7px;
+    width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.rank-main .rank-content ul .rankli .ranklink .shift-bo {
+    position: absolute;
+    background: url(../images/vchart/icons.png) -79px -229px no-repeat;
+    left: 50%;
+    top: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+    width: 50px;
+    height: 50px;
+    display: none;
+    transition:  all .5s;
+}
+.rank-main .rank-content ul .rankli .ranklink:hover .shift-bo{
+    display: block;
+}
+
+.rank-main .rank-content ul .rankli .ranklink .tj_convenient{
+    display: none;
+    right: 2px;
+    bottom: 2px;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background: url(../images/vchart/icon_add.png) no-repeat 0 0;
+    cursor: pointer;
+    z-index: 500;
+    transition: all .5s;
+}
+.rank-main .rank-content ul .rankli .ranklink .tj_convenient:hover{
+    transform: rotate(360deg);
+}
+.rank-main .rank-content ul .rankli .ranklink:hover .tj_convenient{
+    display: block;
+    /*transform: rotate(360deg);*/
+}
+.rank-main .rank-content ul .rankli .play_num{
+    color: #333333;
+    font: 14px "Microsoft yahei";
+    padding: 10px 0 10px 8px;
+}
+.rank-main .rank-content ul .rankli .play_num .ico_medal{
+
+    width: 20px;
+    height: 16px;
+    display: block;
+    float: left;
+    margin: 5px 10px 0 0;
+}
+.ico1{
+    background: url(../images/vchart/icons.png) no-repeat -67px -177px;
+}
+.ico2{
+    background: url(../images/vchart/icons.png) no-repeat -90px -177px;
+}
+.ico3{
+
+    background: url(../images/vchart/icons.png) no-repeat -112px -177px;
+}
+.ico4{
+    background: url(../images/vchart/icons.png) no-repeat -134px -177px;
+}
+.rank-main .rank-content ul .rankli .c_9{
+    padding-left: 8px;
+    color: #999999;
+}
+.rank-main .rank-content ul .rankli .play_num .c_993{
+    color: #2ad3bd;
+    font-size: 18px;
+    font-family: 'Microsoft yahei';
+    margin-top: 10px;
+    font-style: italic;
+}
+.rank-main .rank-content ul .rankli .c_6{
+    color: #666666;
+}
+.rank-main .rank-content ul .rankli .c_3{
+    color: #333333;
+}
+/*周榜最高纪录 end*/
+/*合作伙伴开始*/
+.co-whole{
+    background: #ebedf3 !important;
+    width: 100%;
+}
+.co-whole .vc_cooperation{
+    padding: 10px 0 20px;
+    overflow: hidden;
+    _zoom: 1;
+    width: 1200px;
+    margin: 10px auto 0;
+}
+.ico_vc_cooperation {
+    border-bottom: 1px solid #cacaca;
+    font: normal 18px/36px 'Microsoft yahei';
+    margin-top: 20px;
+    height: 36px;
+    color: #666666;
+}
+.vc_cooperation .more {
+    font-family: 'Microsoft yahei';
+}
+.vc_cooperation .more:hover {
+    background: #2ad3bd;
+}
+.mr_t10 {
+    padding: 0 2px;
+    color: #666;
+    margin-top: 10px;
+    font: 14px "Microsoft Yahei";
+}
+
+.vc_cooperation_list{
+    margin: 0 auto;
+    overflow: hidden;
+}
+.vc_cooperation_list li{
+    float: left;
+}
+.vc_cooperation_list1 .datasouce{
+    width: 1206px;
+    overflow: hidden;
+}
+.vc_cooperation_list .title {
+    padding: 20px 0;
+    color: #666666;
+    font: normal 14px 'Microsoft yahei';
+}
+.vc_cooperation_list1 .title {
+    padding: 20px 0 10px 0;
+}
+.vc_cooperation_list .link img {
+    border: 1px solid #ebedf3;
+    width: 110px;
+    text-align: center;
+}
+.source-box {
+    position: relative;
+    padding: 10px;
+    background: #fff;
+    float: left;
+    margin-right: 38px;
+    width: 340px;
+    height: 132px;
+}
+.source-box .source-img {
+    width: 340px;
+    height: 132px;
+}
+.source-word {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 340px;
+    height: 132px;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.7);
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#b2000000', EndColorStr='#b2000000');
+    color: #fff;
+}
+.source-box:hover .source-word {
+    display: block;
+}
+:root .source-word {
+    filter: none;
+}
+.datasouce {
+    width: 1206px;
+    overflow: hidden;
+}
+.source-cotent {
+    width: 1272px;
+}
+.source-word .source-title {
+    margin-top: 16px;
+    margin-left: 20px;
+    font: bold 20px/32px 'SimHei';
+}
+.source-word .source-info {
+    margin-left: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    width: 315px;
+}
+.vc_cooperation_list li .link a{
+    margin-right: 13px;
+    margin-bottom: 13px;
+}
+.vc_cooperation_list li .link a:hover img{
+    border: 1px solid #34d7c3;
+}
+/*合作伙伴 end*/
+.returntop
+{
+    position: fixed;
+    width: 50px;
+    height: 65px;
+    background: url('../images/returntop.png') no-repeat;
+    bottom: -100px;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*专辑榜 end*/
+
+/*主体 parttwo (咨询盘点专辑榜) end*/
+/*主体 ennd*/

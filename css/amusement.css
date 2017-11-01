@@ -1,0 +1,858 @@
+@charset "UTF-8";
+/*标题样式*/
+.title{
+    height: 48px;
+    border-bottom: 1px solid #bbb;
+    margin-top: 30px;
+    position: relative;
+}
+.title a{
+    position: absolute;
+    right: 0;
+    line-height: 48px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #999;
+}
+.title a:hover{
+    color: #ff6666;
+}
+/*文章超出隐藏*/
+.omit {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/*明星圈以下部分标题样式*/
+.title2 {
+    font-size: 20px;
+    color: #333333;
+    font-weight: normal;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+/*导航栏*/
+header .navleft li:nth-child(5) a{
+    color: #cf9;
+}
+/*二级导航*/
+.subnav{
+    width:100%;
+    height: 90px;
+    margin-top: 50px;
+    border-bottom: 1px solid #e9e9e9;
+}
+.subnav div{
+    width: 1200px;
+    margin: 0 auto;
+}
+/*二级导航logo*/
+.subnav div img{
+    width: 161px;
+    height: 36px;
+    margin-top: 25px;
+}
+/*二级导航菜单*/
+.subnav div ul{
+    width: 380px;
+    height: 90px;
+}
+.subnav div ul li{
+    height: 90px;
+    line-height: 90px;
+    margin-left: 50px;
+    text-align: right;
+}
+.subnav div ul li a{
+    font-size: 18px; ;
+}
+.subnav div ul li a:hover{
+    color: #ff7c7c;
+}
+.subnav div ul li:first-child a{
+    color:#ff7c7c;
+}
+/*主体内容*/
+.wrap{
+    background: #fff;
+    width: 1200px;
+    margin: 0 auto;
+}
+/*新闻主题部分*/
+.news-main{
+    width: 1200px;
+    margin: 0 auto;
+}
+/*新闻主体部分左部*/
+.news-mainL{
+    width: 840px;
+}
+/*聚焦广告*/
+.news-mainL .banner{
+    width: 840px;
+    height: 430px;
+    margin-top: 20px;
+}
+.news-mainL .banner a{
+    position: relative;
+}
+.news-mainL .banner a img{
+    width: 840px;
+    height: 430px;
+}
+.banner a div{
+    width: 840px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    background: url(../images/amusement/cover2.png) no-repeat;
+}
+.banner a p{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 22px;
+    color: #ffffff;
+    height: 70px;
+    text-align: left;
+    line-height: 70px;
+    padding: 0 20px;
+}
+/*娱悦头条*/
+.news-mainL .headline-news{
+    width: 840px;
+    height: 614px;
+}
+.headline-news article{
+    margin-top: 20px;
+}
+/*娱悦头条广告图片*/
+.headline-news article a{
+    display: block;
+    position: relative;
+}
+.headline-news article a div{
+    width: 318px;
+    height: 118px;
+    position: absolute;
+    bottom: 0;
+    background: url(../images/amusement/cover3.png) no-repeat;
+}
+.headline-news article a div p{
+    position: absolute;
+    left: 13px;
+    bottom: 36px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #ffffff;
+}
+.headline-news article a div span{
+    position: absolute;
+    left: 13px;
+    bottom: 11px;
+    font-size: 14px;
+    color: #ccc;
+}
+/*娱悦头条文章*/
+.headline-news article ul{
+    width: 502px;
+}
+.headline-news article ul li{
+    height: 82px;
+    border-bottom: 1px solid #e9e9e9;
+}
+.headline-news article ul li a{
+    display: block;
+    font-size: 20px;
+    color: #000;
+    line-height: 50px;
+}
+.headline-news article ul li a:hover{
+    color: #ff6666;
+}
+.headline-news article ul li p{
+    font-size: 14px;
+    color:#8b8b8b;
+    margin-bottom: 12px;
+}
+.headline-news div{
+    width: 840px;
+    height: 100px;
+    margin-top: 30px;
+}
+/*华语和海外新闻*/
+.news-classify{
+    width: 840px;
+    height: 828px;
+    margin-top:20px;
+}
+/*华语与海外新闻标题*/
+.news-classify .news-tab{
+    height: 38px;
+    border-bottom: 1px solid #bbb;
+}
+.news-classify .news-tab li{
+    width: 60px;
+    height: 30px;
+}
+.news-classify .news-tab li:first-child{
+    border-right: 1px solid #bbb;
+}
+.news-classify .news-tab li a{
+    font-size: 20px;
+    color:#333 ;
+}
+.news-classify .news-tab li:nth-child(2){
+    text-align: right;
+}
+/*华语与海外新闻内容*/
+.news-classify div ul{
+    height: 790px;
+}
+.news-classify div ul li{
+    width: 405px;
+    height: 80px;
+    padding:16px 0;
+    border-bottom:1px solid #e9e9e9;
+}
+.news-classify div ul li:last-child{
+    border-bottom: none;
+}
+.news-classify div ul:nth-child(2) li{
+    margin-left: 30px;
+}
+.news-classify div ul li a{
+    font-size: 20px;
+    color: #111;
+    width: 405px;
+    display: inline-block;
+    margin-bottom: 8px;
+    overflow: hidden;
+    height: 26px;
+}
+.news-classify div ul li a:hover{
+    color: #ff6666;
+}
+.news-classify div ul li p{
+    font-size: 14px;
+    color: #8b8b8b;
+    width: 390px;
+    height: 42px;
+    overflow: hidden;
+    display: inline-block;
+}
+/*主体部分右部*/
+.news-mainR{
+    width: 330px;
+    margin-top: 20px;
+}
+/*新闻摘要主要内容*/
+.newsInfo{
+    width: 330px;
+    height: 430px;
+}
+.newsInfo a{
+    display: block;
+    height: 190px;
+}
+.newsInfo ul{
+    height: 240px;
+    background: #f9f9f9;
+}
+.newsInfo ul li{
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.newsInfo ul li:first-child{
+    background: #dddddd;
+}
+.newsInfo ul li a{
+    font-size: 14px;
+    color: #333;
+}
+.newsInfo ul li a:hover{
+    color: #ff6666;
+}
+/*台哥报报*/
+.today-video{
+    width: 330px;
+    height: 559px;
+    margin-top: 30px;
+}
+/*台哥报报标题通过公共title样式引入*/
+/*台哥报报内容*/
+.today-video ul{
+    height: 490px;
+    margin-top: 20px;
+}
+.today-video ul li a{
+    display: block;
+    width: 330px;
+    height: 230px;
+    margin-bottom: 30px;
+    overflow:hidden;
+}
+.today-video ul li a div{
+    width: 330px;
+    height: 190px;
+    overflow:hidden;
+    position: relative;
+}
+.today-video ul li a div img{
+    transition:all 0.9s;
+}
+.today-video ul li a div:hover img:nth-child(1){
+    transform:scale(1.1);
+}
+.today-video ul li a div{
+    float: left;
+}
+.today-video ul li a div img:nth-child(2){
+    position: absolute;
+    left:10px;
+    bottom: 23px;
+}
+.today-video ul li a p{
+    width: 310px;
+    height: 40px;
+    padding: 0 10px;
+    line-height: 40px;
+    font-size: 14px;
+    float: left;
+    background: #ddd;
+}
+.today-video ul li a p:hover{
+    color: #ff7c7c;
+}
+/*台哥专栏*/
+/*台哥专栏标题引用公共样式*/
+/*台哥专栏内容*/
+.column ul{
+    margin-top: 20px;
+}
+.column ul li{
+    width: 330px;
+    height: 190px;
+    margin-bottom: 30px;
+}
+.column ul li a{
+   display: block;
+    width: 330px;
+    height: 190px;
+    position:relative;
+    overflow: hidden;
+}
+.column ul li a img{
+    transition: all 0.9s;
+}
+.column ul li a:hover img{
+    transform:scale(1.1);
+}
+.column ul li a div{
+    width: 330px;
+    height: 101px;
+    position: absolute;
+    bottom: 0;
+    background: url(../images/amusement/cover5.png) no-repeat;
+}
+.column ul li a div p{
+    position: absolute;
+    left:10px;
+    bottom:33px;
+    font-size:14px;
+    color:#fff;
+}
+/*你好八卦*/
+/*你好八卦标题引用title公共样式*/
+/*你好八卦内容*/
+.bagua ul{
+    height: 300px;
+    margin-top: 7px;
+}
+.bagua ul li{
+    width: 310px;
+    height: 30px;
+    line-height: 30px;
+}
+.bagua ul li a{
+    font-size: 14px;
+    color: #333;
+}
+.bagua ul li a:hover{
+    color: #ff6666;
+}
+.bagua ul li a em{
+    display: inline-block;
+    width: 20px;
+    margin-right: 4px;
+    text-align: center;
+    font-style: normal;
+}
+/*明星圈*/
+.star-ring{
+    height: 625px;
+    margin-top: 50px;
+}
+/*明星圈标题*/
+.star-title{
+    height: 88px;
+    background: url(../images/amusement/cover.png);
+    position: relative;
+}
+.star-title img{
+    position:absolute;
+    top:15px;
+    left:0;
+    right:0;
+    margin: 0 auto;
+    width: 144px;
+    height: 44px;
+}
+/*今日星主角*/
+.lead{
+    width: 318px;
+    height: 527px;
+}
+/*标题应用公共样式title2*/
+/*今日星主角内容*/
+.lead a{
+    display: block;
+    width: 318px;
+    height: 450px;
+    position:relative;
+}
+.lead a div{
+    width: 318px;
+    height: 118px;
+    position: absolute;
+    bottom: 0;
+    background: url(../images/amusement/cover3.png) no-repeat;
+}
+.lead a div p{
+    position: absolute;
+    left: 13px;
+    bottom: 36px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+}
+.lead a div span{
+    position: absolute;
+    left: 13px;
+    bottom: 11px;
+    font-size: 14px;
+    color: #ccc;
+}
+/*明星圈下的最新版块*/
+.new{
+    width: 493px;
+    margin-left: 30px;
+}
+/*最新版块标题*/
+.new h3{
+    position: relative;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+.new h3 strong{
+    font-size: 20px;
+    color: #333333;
+    font-weight: normal;
+}
+.new h3 a{
+    position: absolute;
+    bottom:3px;
+    right: 0;
+    font-size: 12px;
+    color: #999;
+}
+.new h3 a:hover{
+    color: #ff6666;
+}
+/*最新版块内容*/
+.new li{
+    height: 90px;
+    padding: 14px 0;
+    border-bottom: 1px solid #ececec;
+}
+.new li:first-child{
+    padding-top: 0;
+}
+.new li:last-child{
+    border-bottom: none;
+}
+.new li>a img{
+    width: 160px;
+    height: 90px;
+}
+.new li div{
+    width: 317px;
+    margin-left:16px;
+}
+.new li div>a{
+    display: block;
+    width: 300px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 18px;
+    color:#000;
+}
+.new li div>a:hover{
+    color: #ff6666;
+}
+.new li div p{
+    font-size: 14px;
+    color: #999;
+    margin-top: 6px;
+}
+.new li div p span{
+    margin-right: 15px;
+}
+.new li div p a{
+    color: #999;
+}
+.new li div p a:hover{
+    color: #ff6666;
+}
+/*明星圈下的星访谈版块*/
+.talk-show{
+    width: 330px;
+    height: 525px;
+}
+/*星访谈标题引用title2样式*/
+/*星访谈内容*/
+.star-chat{
+    width: 320px;
+    height: 449px;
+    padding-left: 10px;
+    background: #f8f8f8;
+}
+.star-chat ul li img{
+    display: none;
+}
+.star-chat ul li a{
+    display: inline-block;
+    width: 310px;
+    height: 37px;
+    line-height: 37px;
+    font-size: 14px;
+    color:#000;
+}
+.star-chat ul li a:hover{
+    color: #ff6666;
+}
+.star-chat ul li a i{
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    margin-right: 10px;
+    background: #000;
+    vertical-align: middle;
+}
+.star-chat ul li a img{
+    width: 330px;
+    height: 190px;
+    margin-left: -10px;
+}
+/*台哥高清*/
+/*标题引用title2样式*/
+/*台哥高清内容*/
+.taige-hd ul{
+    height: 490px;
+}
+.taige-hd ul li{
+    margin-right: 15px;
+    height: 490px;
+}
+.taige-hd ul li:last-child{
+    margin-right: 0;
+}
+.taige-hd ul li a{
+    width: 100%;
+    display: block;
+    position:relative;
+    overflow: hidden;
+}
+.taige-hd ul li:nth-child(1)
+{
+    width: 280px;
+}
+.h150
+{
+    height: 150px;
+}
+.h320
+{
+   height: 320px; 
+}
+.taige-hd ul li:nth-child(2)
+{
+    width: 256px;
+}
+.h305
+{
+    height: 305px;
+}
+.h170
+{
+    height: 170px;
+}
+.taige-hd ul li:nth-child(3)
+{
+    width: 363px;
+}
+.h237
+{
+    height: 237px;
+}
+.taige-hd ul li:nth-child(4)
+{
+    width: 256px;
+}
+.h290
+{
+    height: 290px;
+}
+.h185
+{
+    height: 185px;
+}
+.taige-hd img
+{
+    position: absolute;
+    top: 0px;
+}
+.taige-hd ul li a p{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    overflow: hidden;
+    transform: translateY(40px);
+    transition: all 0.3s;
+    background: url(../images/amusement/cover5.png) repeat-x;
+}
+.taige-hd ul li a:hover p{
+    transform: translateY(0);
+}
+.taige-hd ul li:nth-child(1) a p{
+    width: 280px;
+}
+.taige-hd ul li:nth-child(2) a p{
+    width: 256px;
+}
+.taige-hd ul li:nth-child(3) a p{
+    width: 363px;
+}
+.taige-hd ul li:nth-child(4) a p{
+    width: 256px;
+}
+.taige-hd ul li a:nth-child(2){
+    margin-top: 10px;
+}
+/*影视圈*/
+.movie{
+    margin-top: 50px;
+}
+/*影视圈标题*/
+.movie-title{
+    height: 88px;
+    background: url(../images/amusement/cover.png);
+    position: relative;
+}
+.movie-title img{
+    position:absolute;
+    top:15px;
+    left:0;
+    right:0;
+    margin: 0 auto;
+    width: 144px;
+    height: 44px;
+}
+/*影视圈主题内容*/
+.movie-main{
+    width: 1200px;
+    height: 776px;
+}
+/*影视圈内容左侧板块*/
+.movieL{
+    width: 318px;
+}
+/*看点*/
+/*标题引用title2样式*/
+.watching a{
+    display: block;
+    height: 230px;
+}
+.watching a div{
+    width: 318px;
+    height: 180px;
+    overflow: hidden;
+}
+.watching a div img{
+    transition: all 0.9s;
+}
+.watching a div:hover img{
+    transform: scale(1.1);
+}
+.watching a p{
+    width: 308px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    color: #000;
+    padding-left: 10px;
+    background: #eee;
+}
+/*扒剧*/
+/*标题引用title2样式*/
+.baju a{
+    display: block;
+    width: 318px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+}
+.baju a img{
+    transition: all 0.9s;
+}
+.baju a:hover img{
+    transform:scale(1.1);
+}
+.baju a div{
+    width: 298px;
+    height: 105px;
+    padding: 0 10px;
+    position: absolute;
+    bottom: 0;
+    background:url(../images/amusement/cover4.png) no-repeat ;
+}
+.baju a div p{
+    height: 40px;
+    margin-top: 62px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #fff;
+}
+.baju a:nth-child(3){
+    margin-top: 26px;
+}
+/*影视圈内容中间部分引用明星圈最新版块样式*/
+/*影视圈内容右半部分*/
+.cinema{
+    width: 330px;
+    margin-left: 29px;
+}
+/*正在热映*/
+/*标题应用title2样式*/
+.nowhotbox{
+    border: 1px solid #f1f1f1;
+    width: 308px;
+    padding: 10px;
+}
+.film-info img{
+    width: 108px;
+    height: 160px;
+}
+.film-info div{
+    width: 179px;
+    height: 182px;
+    margin-left: 10px;
+}
+.film-info div h3{
+    font-size: 18px;
+    font-weight: normal;
+    color: #000;
+}
+.film-info div p{
+    font-size: 14px;
+    color: #000;
+    line-height: 23px;
+}
+.film-info div p span{
+    color: #999;
+}
+.film-info div p:nth-child(3){
+    margin: 10px 0;
+}
+.nowhotbox p:nth-child(2){
+    font-size: 14px;
+    color: #000;
+    height: 20px;
+    margin: 6px 0;
+}
+.nowhotbox p:nth-child(3){
+    font-size: 14px;
+    color: #999;
+}
+/*即将热映*/
+/*即将热映标题*/
+.nowhot .nowhotbox .p3{
+    font-size: 14px;
+    color: #000;
+    height: 20px;
+    margin: 6px 0;
+}
+.nowhotbox .p4{
+    font-size: 14px;
+    color: #999;
+}
+/*合作伙伴*/
+/*合作伙伴标题引用title样式*/
+/*合作伙伴内容*/
+.partner{
+    height: 347px;
+}
+.partner .contain{
+    margin-top: 30px;
+}
+.contain ul li{
+    float: left;
+    width: 145px;
+    text-align: center;
+    margin: 0 0 30px 26px;
+}
+.contain ul li:nth-child(1){
+    margin-left: 0;
+}
+.contain ul li:nth-child(8){
+    margin-left: 0;
+}
+.contain ul li a img{
+    width: 145px;
+    height: 60px;
+    margin-bottom: 5px;
+    display: block;
+    overflow: hidden;
+    border: 1px solid #dcdcdc;
+}
+.contain ul li a:nth-child(2){
+    display: block;
+    font-size: 16px;
+    color: #111;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.contain ul li a:nth-child(2):hover{
+    color: #ff6666;
+}
+/*底部*/
+footer{
+    height: 150px;
+    margin-top: 30px;
+    background: #000;
+}
+footer p:nth-child(1) a{
+    color: #666 ;
+}
+footer p:nth-child(1) a:hover{
+    color: #690;
+}

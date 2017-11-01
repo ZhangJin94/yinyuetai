@@ -1,0 +1,263 @@
+.cycleimages{
+    height: 350px;
+    margin: 10px auto;
+    background: url("../images/friendlinks/ic_bg.jpg") 0 0 repeat-x;
+    margin-top: 50px;
+}
+.cycleimages #slide{
+    width: 940px;
+    height: 300px;
+    padding: 20px 0 0 0;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.cycleimages #slide img{
+    width: 940px;
+    height: 300px;
+    float: left;
+}
+.cycleimages #tb{
+    width: 160px;
+    height: 5px;
+    margin: 10px auto 0;
+}
+.cycleimages #tb li{
+    width: 21px;
+    height: 5px;
+    float: left;
+    margin-right: 5px;
+}
+.cycleimages #tb li a{
+    display: inline-block;
+    width: 21px;
+    height: 5px;
+    background: url("../images/friendlinks/cycleimages-tb.png") no-repeat;
+}
+.cycleimages #tb li a.now{
+    display: inline-block;
+    width: 21px;
+    height: 5px;
+    background: url("../images/friendlinks/tb_now.png") no-repeat;
+}
+.cycleimages #tb li a.active{
+    display: inline-block;
+    width: 21px;
+    height: 5px;
+    background: url("../images/friendlinks/tb_active.png") no-repeat;
+}
+.links_main {
+    width: 980px;
+    margin: 0 auto;
+    background: url("../images/friendlinks/links_main_bgi.png") 0 0 no-repeat;
+    padding-top: 5px;
+    border-bottom: 1px solid #cccccc;
+}
+.links_main .links_main_bg {
+    overflow: hidden;
+    background: url("../images/friendlinks/links_main_bg_bgi.png") 0 0 repeat-y;
+    padding-bottom: 70px;
+}
+.links_main_l{
+    float: left;
+    width: 684px;
+    overflow: hidden;
+    padding: 14px 0 0 16px;
+}
+.links_main_l .company h2 {
+    border-bottom: 1px solid #e5e5e5;
+    padding-left: 58px;
+    width: 626px;
+    height: 53px;
+    line-height: 53px;
+    color: #690;
+    background: url("../images/friendlinks/smile.png") 19px 18px no-repeat;
+    /*font: 22px "Microsoft YaHei";*/
+    font-weight: normal;
+}
+.links_main_l .company ul {
+    float: left;
+    padding: 23px 0 0 34px;
+}
+.links_main_l .company ul li {
+    float: left;
+    width: 120px;
+    height: 123px;
+    margin: 0 40px 0 0;
+}
+.links_main_l .company ul li .com_pic {
+    float: left;
+    margin-bottom: 5px;
+}
+.links_main_l .company ul li img {
+    width: 120px;
+    height: 60px;
+}
+.links_main_l .company ul li .com_name {
+    float: left;
+    width: 120px;
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 12px;
+}
+.links_main_l .company ul li .com_name:hover a{
+    color: #390;
+    text-decoration: underline;
+}
+.links_main_l .company {
+    float: left;
+}
+.links_main_l .company h2 {
+    border-bottom: 1px solid #e5e5e5;
+    padding-left: 58px;
+    width: 626px;
+    height: 53px;
+    line-height: 53px;
+    font-size: 22px;
+    color: #690;
+    background: url("../images/friendlinks/smile.png") 19px 18px no-repeat;
+    font-family: "Microsoft YaHei";
+    font-weight: normal;
+}
+
+.links_main_l .company ul {
+    float: left;
+    padding: 23px 0 0 34px;
+}
+
+.links_main_l .company ul li {
+    float: left;
+    width: 120px;
+    height: 123px;
+    margin: 0 40px 0 0;
+}
+
+.links_main_l .company ul li .com_pic {
+    float: left;
+    margin-bottom: 5px;
+}
+
+.links_main_l .company ul li img {
+    width: 120px;
+    height: 60px;
+}
+
+.links_main_l .company ul li .com_name {
+    float: left;
+    width: 120px;
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.links_main_l .link ul li, .links_main_l .link ul li img {
+    width: 88px;
+    height: 31px;
+    margin: 0 20px 20px 0;
+}
+
+.links_main_l .link .link_words {
+    padding-top: 40px;
+}
+
+.links_main_l .link .link_words li {
+    width: 100px;
+    margin: 0 3px 3px 0;
+    line-height: 18px;
+    height: 38px;
+}
+.links_main_l .link .link_words li:hover a{
+    color: #390;
+    text-decoration: underline;
+}
+.links_main_r {
+    float: left;
+    width: 242px;
+    padding: 13px 0 0 15px;
+}
+
+.links_main_r .logo_word {
+    float: left;
+    padding-bottom: 22px;
+    color: #666;
+}
+.links_main_r .logo_word strong {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    padding-bottom: 10px;
+}
+.links_main_r .logo_word p.biaozhi {
+    font-size: 14px;
+}
+
+.links_main_r .logo_pic .marks {
+    float: left;
+    margin: 0 0 10px 40px;
+    width: 152px;
+    height: 114px;
+    background: url('../images/friendlinks/logo_bg.png') 0 0 no-repeat;
+    display: inline;
+}
+
+.links_main_r .logo_pic .marks img {
+    margin: 34px 0 0 31px;
+}
+
+.links_main_r .logo_pic .markl img {
+    margin: 22px 0 0 16px;
+}
+
+.links_main_r .logo_pic span {
+    width: 152px;
+    float: left;
+    text-align: center;
+    color: #999;
+}
+
+.links_main_r .logo_pic .code {
+    width: 230px;
+    height: 105px;
+    word-break: break-all;
+    float: left;
+    padding: 5px;
+    border: 1px solid #666;
+    margin-bottom: 26px;
+}
+
+.links_main_r .l_word strong {
+    padding: 10px 0 30px 0;
+}
+
+.links_main_r .l_word dl dt {
+    padding: 28px 0;
+}
+
+.links_main_r .l_word dl dt dd {
+    line-height: 20px;
+}
+
+.links_main_r a.mail {
+    color: #690;
+    font-size: 14px;
+}
+
+.links_main_r a.mail:hover {
+    color: #393;
+}
+.links_main_bottom {
+    height: 5px;
+    background: url("../images/friendlinks/links_main_bottom_bg.png") 0 0 no-repeat;
+}
+.returntop
+{
+    position: fixed;
+    width: 50px;
+    height: 65px;
+    background: url('../images/returntop.png') no-repeat;
+    bottom: -100px;
+    right: 0px;
+}
+
+
+

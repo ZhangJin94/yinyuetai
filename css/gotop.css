@@ -1,0 +1,9 @@
+.returntop
+	{
+		position: fixed;
+		width: 50px;
+		height: 65px;
+		background: url(../images/index/returntop.png) no-repeat;
+		bottom: -100px;
+		right: 0px;
+	}

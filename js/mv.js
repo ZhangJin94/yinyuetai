@@ -1,0 +1,10 @@
+$(document).ready(function(){
+		$("#line").click(function(){
+			$(".content").find("li").css({"width":"100%","margin-bottom":"10px","height":"124px"})
+				$(".content").find("li").find("img").css({"float":"left","margin-right":"20px"})
+		})
+		$("#squre").click(function(){
+			$(".content").find("li").css({"width":"220px","margin-bottom":"25px","height":"202px"})
+				$(".content").find("li").find("img").css({"float":"none","margin-right":"0px"})
+		})
+	})

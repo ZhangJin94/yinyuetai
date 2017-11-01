@@ -1,0 +1,70 @@
+@charset "UTF-8";
+.wrap{
+    width: 960px;
+    padding-top: 35px;
+    margin:0 auto ;
+    line-height: 22px;
+    color: #333;
+}
+/*主标题*/
+.pageInfo{
+    padding: 40px 10px 20px;
+}
+.pageInfo h1{
+    font-size: 16px;
+}
+/*主体内容*/
+.wrap-about{
+    width: 960px;
+    margin: 0 auto;
+    line-height: 22px;
+    color: #333;
+    font-family: tahoma,simsun,'microsoft yahei',Helvetica,Arial,'sans-serif';
+}
+/*左边版块*/
+.main{
+    width: 615px;
+    padding-top: 23px;
+    font-size: 12px;
+}
+/*主体内容标题*/
+.main h3{
+    border-bottom: 1px solid #d4e4c2;
+    font-size: 12px;
+    padding: 7px 15px;
+}
+.main article{
+    padding: 5px 5px 0;
+    text-indent: 24px;
+}
+/*办公地址*/
+/*使用中遇到问题*/
+.zip-code{
+    margin-top: 22px;
+}
+.zip-code2{
+    margin-top: 44px;
+}
+.wrap-about a{
+    color: #006699;
+}
+/*右边版块*/
+.sidebar{
+    width: 310px;
+    margin-top: 62px;
+}
+.sidebar ul li{
+    display: block;
+}
+.sidebar ul li a{
+    color: #006699;
+}
+.sidebar ul li a:hover{
+    color: #390;
+    text-decoration: underline;
+}
+/*底部*/
+body footer{
+    margin-top: 57px;
+    font-family: tahoma,simsun,'microsoft yahei',Helvetica,Arial,'sans-serif';
+}
